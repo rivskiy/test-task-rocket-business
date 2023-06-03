@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <div class="header__head container">
+      <button class="menu-btn" type="button"><span class="visually-hidden">Меню</span><span></span></button>
+      <a class="header__logo" href="#">
+        <img src="./images/header-logo.svg" alt="Логотип">
+      </a>
+      <div class="header__info">
+        <div class="address">
+          <p class="address__city">Ростов-на-Дону</p>
+          <p class="address__st">ул. Ленина, 2Б</p>
+        </div>
+        <a href="tel:+7836000000" class="header__tel">+7(863) 000 00 00</a>
+      </div>
+      <button class="header__btn btn" type="button">Записаться на прием</button>
+    </div>
+    <nav class="header__nav menu ">
+      <div class="container">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a href="#">О клинике</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#">Услуги</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#">Специалисты</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#">Цены</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <button class="menu__btn btn" type="button">Записаться на прием</button>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="about">
+        <div class="about__container container">
+          <div class="about__content">
+            <h1 class="about__title">Многопрофильная клиника для детей
+              и взрослых</h1>
+            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+        <picture class="about__img">
+          <source media="(min-width: 768px)" srcset="./images/about-img-desctope.png">
+          <img src="./images/about-img-mobile.png" alt="Фотография клиники">
+        </picture>
+      </section>
+
+      <section class="services container">
+        <ul class="services__list">
+          <li class="services__item service">
+            <div class="service__content">
+              <h2 class="service__title">Check-UP</h2>
+              <h3 class="service__subtitle">для мужчин</h3>
+              <ul class="service__list">
+                <li>Гормональный скрининг</li>
+                <li>Тестостерон</li>
+                <li>Свободный тестостерон</li>
+                <li>Глобулин, связывающий половые гормоны</li>
+              </ul>
+              <p class="service__price">Всего 2800₽ <span class="service__sail">3500₽</span></p>
+              <div class="service__buttons">
+                <button class="service__btn btn">Записаться</button>
+                <button class="service__btn service__btn--transp btn">Подробнее</button>
+              </div>
+            </div>
+            <picture class="service__img">
+              <source media="(min-width: 768px)" srcset="./images/service-img-desctope.png">
+              <img src="./images/service-img-mobile.png" alt="">
+            </picture>
+          </li>
+        </ul>
+        <div class="control">
+          <button class="control__btn control__btn--prew">
+            <span class="visually-hidden">Назад</span>
+            <svg width="34" height="18" viewBox="0 0 34 18" fill="#E1E1E1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M32.6718 7.67186H4.54488L9.20421 3.03512C9.7241 2.51768 9.7261 1.67678 9.20866 1.15689C8.69122 0.636925 7.85025 0.635 7.33036 1.15237L0.390637 8.05861C0.390173 8.05901 0.389841 8.05947 0.389442 8.05987C-0.129124 8.57731 -0.130784 9.42093 0.389309 9.94009C0.389774 9.94049 0.390106 9.94095 0.390505 9.94135L7.33022 16.8476C7.85005 17.3649 8.69102 17.3631 9.20852 16.8431C9.72596 16.3232 9.72397 15.4823 9.20408 14.9648L4.54488 10.3281H32.6718C33.4053 10.3281 33.9999 9.7335 33.9999 8.99998C33.9999 8.26646 33.4053 7.67186 32.6718 7.67186Z" />
+            </svg>
+          </button>
+          <div class="control__pagination"><span class="control__pagination--active">1</span>/4</div>
+          <button class="control__btn control__btn--next">
+            <span class="visually-hidden">Далее</span>
+            <svg width="34" height="18" viewBox="0 0 34 18" fill="#E1E1E1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M32.6718 7.67186H4.54488L9.20421 3.03512C9.7241 2.51768 9.7261 1.67678 9.20866 1.15689C8.69122 0.636925 7.85025 0.635 7.33036 1.15237L0.390637 8.05861C0.390173 8.05901 0.389841 8.05947 0.389442 8.05987C-0.129124 8.57731 -0.130784 9.42093 0.389309 9.94009C0.389774 9.94049 0.390106 9.94095 0.390505 9.94135L7.33022 16.8476C7.85005 17.3649 8.69102 17.3631 9.20852 16.8431C9.72596 16.3232 9.72397 15.4823 9.20408 14.9648L4.54488 10.3281H32.6718C33.4053 10.3281 33.9999 9.7335 33.9999 8.99998C33.9999 8.26646 33.4053 7.67186 32.6718 7.67186Z" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <img class="footer__logo" src="./images/footer-logo.svg" alt="Логотип">
+        <ul class="footer__nav">
+          <li>
+            <a href="#">О клинике</a>
+          </li>
+          <li>
+            <a href="#">Услуги</a>
+          </li>
+          <li>
+            <a href="#">Специалисты</a>
+          </li>
+          <li>
+            <a href="#">Цены</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+        <ul class="footer__networks networks">
+          <li>
+            <a href="#"><img src="./images/inst.png" alt="instagram"><span class="visually-hidden">instagram</span></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/whatsapp.png" alt="whatsapp"><span
+                class="visually-hidden">whatsapp</span></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/telegram.png" alt="telegram"><span
+                class="visually-hidden">telegram</span></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
