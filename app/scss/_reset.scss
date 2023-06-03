@@ -32,10 +32,13 @@ dd {
   margin: 0;
 }
 
-ul[class] {
+ul {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 img {
   max-width: 100%;
   display: block;
